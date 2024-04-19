@@ -1,0 +1,30 @@
+@import '~bootstrap/scss/bootstrap';
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+$primary:  #eab676; // Your custom primary color
+$secondary: #8b531e; // Your custom secondary color
+$btn-hover: #bf8d50;
+$btn-active: #936b3a;
+$third: #d28d4c; // Your custom third color
+$light: #f8f9fa; // Your custom light color
+$dark: #343a40; // Your custom dark color
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0 !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $light;
+  background-color: $secondary;
+  height: 100%;
+}
+
+.bg-secondary {
+  background-color: $third !important;
+}
